@@ -1,6 +1,6 @@
 {
   "name": "draft-js-typeahead-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Slack/Github style autocomplete plugin for DraftJS Plugins",
   "author": {
     "name": "Ishmael Smyrnow",
@@ -21,8 +21,8 @@
   "peerDependencies": {
     "draft-js": ">=0.9.1",
     "immutable": ">=3.7.6",
-    "react": ">=0.14.0 || 15.0.0-rc",
-    "react-dom": ">=0.14.0 || 15.0.0-rc"
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "scripts": {
     "clean": "./node_modules/.bin/rimraf lib",
@@ -34,7 +34,8 @@
   "dependencies": {
     "draft-js-autocomplete-plugin-creator": "git://github.com/ismyrnow/draft-js-autocomplete-plugin-creator.git#pluginsV2-lib",
     "find-with-regex": "^1.0.2",
-    "lodash.escaperegexp": "^4.1.2"
+    "lodash.escaperegexp": "^4.1.2",
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
